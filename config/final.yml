@@ -1,5 +1,6 @@
 name: hello-release
 blobstore:
-  provider: gcs
+  provider: ghrel
   options:
-    bucket_name: crhntr-hello-release
+    repository: fejnartal/hello-release
+    tag_name: bosh_blobstore
